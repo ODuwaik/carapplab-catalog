@@ -1,36 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-04-27",
   "categories": [
-    {"id": "navigation", "name": "Navigation"},
     {"id": "media", "name": "Media"},
     {"id": "tools", "name": "Tools"},
     {"id": "offroad", "name": "Off-Road"}
   ],
   "apps": [
-    {
-      "id": "google-maps",
-      "name": "Google Maps",
-      "package": "com.google.android.apps.maps",
-      "version": "11.157.0102",
-      "category": "navigation",
-      "description": "Google Maps with offline support and turn-by-turn navigation. Requires MicroG.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/google-maps.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/google-maps-11.157/google-maps.apk",
-      "size_mb": 95,
-      "requires": ["app.revanced.android.gms"]
-    },
-    {
-      "id": "waze",
-      "name": "Waze",
-      "package": "com.waze",
-      "version": "5.4.0.5",
-      "category": "navigation",
-      "description": "Community-driven navigation with real-time traffic, hazard alerts, and police reports.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/waze.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/waze-5.4.0.5/waze.apk",
-      "size_mb": 75
-    },
     {
       "id": "youtube-revanced",
       "name": "YouTube ReVanced",
@@ -40,7 +16,7 @@
       "description": "Ad-free YouTube with background play and SponsorBlock. Requires ReVanced MicroG.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/youtube-revanced.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/youtube-revanced-20.40.45/youtube-revanced.apk",
-      "size_mb": 130,
+      "size_mb": 173,
       "requires": ["app.revanced.android.gms"]
     },
     {
@@ -49,10 +25,10 @@
       "package": "app.revanced.android.gms",
       "version": "0.3.13",
       "category": "tools",
-      "description": "Google services replacement required for YouTube ReVanced and Google Maps.",
+      "description": "Google services replacement. Required for YouTube ReVanced and other Google-dependent apps.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/microg.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/revanced-microg-0.3.13/revanced-microg.apk",
-      "size_mb": 12
+      "size_mb": 101
     },
     {
       "id": "apkpure",
@@ -60,10 +36,10 @@
       "package": "com.apkpure.aegon",
       "version": "3.20.64",
       "category": "tools",
-      "description": "App store with verified APKs, useful for installing additional apps.",
+      "description": "App store with verified APKs. Useful for installing apps not in this catalog.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/apkpure.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/apkpure-3.20.64/apkpure.apk",
-      "size_mb": 30
+      "size_mb": 24
     },
     {
       "id": "offroad-dash",
@@ -71,10 +47,10 @@
       "package": "com.carapplab.offroad_dash",
       "version": "1.0.0",
       "category": "offroad",
-      "description": "Live off-road instrument cluster: pitch, roll, compass, altitude, speed, 4WD, tire pressure.",
+      "description": "Live off-road instrument cluster: compass, altitude, speed, 4WD, tire pressure.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/offroad-dash.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/offroad-dash-1.0.0/offroad-dash.apk",
-      "size_mb": 47
+      "size_mb": 44
     }
   ]
 }
