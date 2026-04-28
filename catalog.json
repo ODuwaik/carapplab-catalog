@@ -1,12 +1,34 @@
 {
-  "version": 2,
-  "updated": "2026-04-27",
+  "version": 3,
+  "updated": "2026-04-28",
   "categories": [
     {"id": "media", "name": "Media"},
     {"id": "tools", "name": "Tools"},
     {"id": "offroad", "name": "Off-Road"}
   ],
   "apps": [
+    {
+      "id": "iptv-smarters-pro",
+      "name": "IPTV Smarters Pro",
+      "package": "com.nst.iptvsmarterstvbox",
+      "version": "3.1.5",
+      "category": "media",
+      "description": "TV-box IPTV player. Add your provider URL and watch live TV channels on the head unit.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/iptv-smarters-pro.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/iptv-smarters-pro-3.1.5/iptv-smarters-pro.apk",
+      "size_mb": 35
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "package": "com.netflix.mediaclient",
+      "version": "8.140.0",
+      "category": "media",
+      "description": "Stream Netflix content. Note: head unit Widevine support may limit playback to SD/720p.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/netflix.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/netflix-8.140.0/netflix.apk",
+      "size_mb": 95
+    },
     {
       "id": "youtube-revanced",
       "name": "YouTube ReVanced",
