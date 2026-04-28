@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-04-28",
   "categories": [
     {"id": "media", "name": "Media"},
@@ -53,15 +53,15 @@
       "size_mb": 101
     },
     {
-      "id": "apkpure",
-      "name": "APKPure",
-      "package": "com.apkpure.aegon",
-      "version": "3.20.64",
+      "id": "fdroid",
+      "name": "F-Droid",
+      "package": "org.fdroid.fdroid",
+      "version": "1.21",
       "category": "tools",
-      "description": "App store with verified APKs. Useful for installing apps not in this catalog.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/apkpure.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/apkpure-3.20.64/apkpure.apk",
-      "size_mb": 24
+      "description": "Open-source app store. Zero ads, no tracking, no Google account. Search and install community apps.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/fdroid.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.21/F-Droid.apk",
+      "size_mb": 12
     },
     {
       "id": "offroad-dash",
