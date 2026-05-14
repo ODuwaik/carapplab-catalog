@@ -1,12 +1,24 @@
 {
-  "version": 4,
-  "updated": "2026-04-28",
+  "version": 5,
+  "updated": "2026-05-14",
   "categories": [
+    {"id": "browser", "name": "Browser"},
     {"id": "media", "name": "Media"},
     {"id": "tools", "name": "Tools"},
     {"id": "offroad", "name": "Off-Road"}
   ],
   "apps": [
+    {
+      "id": "cromite",
+      "name": "Cromite",
+      "package": "org.cromite.cromite",
+      "version": "147.0.7727.56",
+      "category": "browser",
+      "description": "Chromium-based browser with built-in ad-blocking and zero tracking. Plays YouTube web, Netflix web, and any modern site.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/cromite.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/cromite-147.0.7727.56/cromite.apk",
+      "size_mb": 175
+    },
     {
       "id": "iptv-smarters-pro",
       "name": "IPTV Smarters Pro",
