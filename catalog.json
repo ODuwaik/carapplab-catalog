@@ -1,11 +1,12 @@
 {
-  "version": 8,
+  "version": 9,
   "updated": "2026-06-29",
   "categories": [
     {"id": "browser", "name": "Browser"},
     {"id": "media", "name": "Media"},
     {"id": "music", "name": "Music"},
     {"id": "navigation", "name": "Navigation"},
+    {"id": "iptv", "name": "IPTV"},
     {"id": "tools", "name": "Tools"},
     {"id": "offroad", "name": "Off-Road"}
   ],
@@ -67,6 +68,39 @@
       "size_mb": 10
     },
     {
+      "id": "shahid",
+      "name": "Shahid",
+      "package": "net.mbc.shahid",
+      "version": "8.2.0",
+      "category": "media",
+      "description": "MBC Shahid — Arabic streaming for series, movies, and live channels. Note: content playback may require a Google-certified device.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/shahid.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/shahid-8.2.0/shahid.apk",
+      "size_mb": 29
+    },
+    {
+      "id": "iptv-smarters-pro",
+      "name": "IPTV Smarters Pro",
+      "package": "com.nst.iptvsmarterstvbox",
+      "version": "5.0",
+      "category": "iptv",
+      "description": "Universal IPTV player. Xtream Codes API, M3U playlists, EPG, catch-up, multi-screen.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/iptv-smarters-pro.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/iptv-smarters-pro-5.0/iptv-smarters-pro.apk",
+      "size_mb": 77
+    },
+    {
+      "id": "smarters-player-pro",
+      "name": "Smarters Player Pro",
+      "package": "com.nst.smartersplayerpro",
+      "version": "5.1",
+      "category": "iptv",
+      "description": "Newer build from the IPTV Smarters team. Same M3U / Xtream / EPG features, faster player engine.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/smarters-player-pro.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/smarters-player-pro-5.1/smarters-player-pro.apk",
+      "size_mb": 31
+    },
+    {
       "id": "revanced-microg",
       "name": "ReVanced MicroG",
       "package": "app.revanced.android.gms",
@@ -92,12 +126,23 @@
       "id": "fdroid",
       "name": "F-Droid",
       "package": "org.fdroid.fdroid",
-      "version": "1.21",
+      "version": "1.23.2",
       "category": "tools",
       "description": "Open-source app store. Zero ads, no tracking, no Google account. Search and install community apps.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/fdroid.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.21/fdroid.apk",
-      "size_mb": 12
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.23.2/fdroid.apk",
+      "size_mb": 13
+    },
+    {
+      "id": "uptodown",
+      "name": "Uptodown",
+      "package": "com.uptodown",
+      "version": "7.32",
+      "category": "tools",
+      "description": "Alternative app store. Direct APK downloads, no ads, version history. Useful when an app isn't on F-Droid.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/uptodown.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/uptodown-7.32/uptodown.apk",
+      "size_mb": 15
     },
     {
       "id": "offroad-dash",
