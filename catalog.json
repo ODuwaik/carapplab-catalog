@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "updated": "2026-06-29",
   "categories": [
     {"id": "browser", "name": "Browser"},
@@ -90,6 +90,17 @@
       "size_mb": 77
     },
     {
+      "id": "stc-tv",
+      "name": "stc tv",
+      "package": "com.intigral.jawwytv",
+      "version": "9.7.1",
+      "category": "media",
+      "description": "stc tv (Jawwy TV) — Saudi telecom streaming for series, live channels, sports. Note: content playback may require a certified device.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/stc-tv.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/stc-tv-9.7.1/stc-tv.apk",
+      "size_mb": 36
+    },
+    {
       "id": "smarters-player-pro",
       "name": "Smarters Player Pro",
       "package": "com.nst.smartersplayerpro",
@@ -143,6 +154,17 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/uptodown.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/uptodown-7.32/uptodown.apk",
       "size_mb": 15
+    },
+    {
+      "id": "aptoide",
+      "name": "Aptoide",
+      "package": "cm.aptoide.pt",
+      "version": "9.22.5.3",
+      "category": "tools",
+      "description": "Third-party app store. Wider selection than F-Droid but user-uploaded (not curated for quality).",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/aptoide.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/aptoide-9.22.5.3/aptoide.apk",
+      "size_mb": 20
     },
     {
       "id": "offroad-dash",
