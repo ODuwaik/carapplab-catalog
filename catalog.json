@@ -1,9 +1,11 @@
 {
-  "version": 7,
+  "version": 8,
   "updated": "2026-06-29",
   "categories": [
     {"id": "browser", "name": "Browser"},
     {"id": "media", "name": "Media"},
+    {"id": "music", "name": "Music"},
+    {"id": "navigation", "name": "Navigation"},
     {"id": "tools", "name": "Tools"},
     {"id": "offroad", "name": "Off-Road"}
   ],
@@ -20,6 +22,17 @@
       "size_mb": 175
     },
     {
+      "id": "organic-maps",
+      "name": "Organic Maps",
+      "package": "app.organicmaps.web",
+      "version": "2026.06.24",
+      "category": "navigation",
+      "description": "FOSS offline maps + turn-by-turn navigation built on OpenStreetMap. No ads, no tracking, no Google. Works without internet.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/organic-maps.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/organic-maps-2026.06.24/organic-maps.apk",
+      "size_mb": 61
+    },
+    {
       "id": "youtube-revanced",
       "name": "YouTube ReVanced",
       "package": "app.revanced.android.youtube",
@@ -32,6 +45,28 @@
       "requires": ["app.revanced.android.gms"]
     },
     {
+      "id": "innertune",
+      "name": "InnerTune",
+      "package": "com.zionhuang.music",
+      "version": "0.5.10",
+      "category": "music",
+      "description": "FOSS YouTube Music client. Ad-free, background play, offline downloads. No Google account required.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/innertune.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/innertune-0.5.10/innertune.apk",
+      "size_mb": 7
+    },
+    {
+      "id": "radiodroid",
+      "name": "RadioDroid",
+      "package": "net.programmierecke.radiodroid2",
+      "version": "0.86",
+      "category": "music",
+      "description": "Internet radio with 50,000+ stations worldwide (radio-browser.info). No ads, no account. TuneIn alternative.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/radiodroid.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/radiodroid-0.86/radiodroid.apk",
+      "size_mb": 10
+    },
+    {
       "id": "revanced-microg",
       "name": "ReVanced MicroG",
       "package": "app.revanced.android.gms",
@@ -41,6 +76,17 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/microg.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/revanced-microg-0.3.13/revanced-microg.apk",
       "size_mb": 101
+    },
+    {
+      "id": "material-files",
+      "name": "Material Files",
+      "package": "me.zhanghai.android.files",
+      "version": "1.7.4",
+      "category": "tools",
+      "description": "Clean Material You file manager. No ads, no tracking. SMB/FTP/SFTP/WebDAV/cloud support. Open source.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/material-files.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/material-files-1.7.4/material-files.apk",
+      "size_mb": 12
     },
     {
       "id": "fdroid",
