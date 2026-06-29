@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updated": "2026-06-29",
   "categories": [
     {"id": "browser", "name": "Browser"},
@@ -18,28 +18,6 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/cromite.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/cromite-147.0.7727.56/cromite.apk",
       "size_mb": 175
-    },
-    {
-      "id": "iptv-smarters-pro",
-      "name": "IPTV Smarters Pro",
-      "package": "com.nst.iptvsmarterstvbox",
-      "version": "3.1.5",
-      "category": "media",
-      "description": "TV-box IPTV player. Add your provider URL and watch live TV channels on the head unit.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/iptv-smarters-pro.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/iptv-smarters-pro-3.1.5/iptv-smarters-pro.apk",
-      "size_mb": 35
-    },
-    {
-      "id": "netflix",
-      "name": "Netflix",
-      "package": "com.netflix.mediaclient",
-      "version": "8.140.0",
-      "category": "media",
-      "description": "Stream Netflix content. Note: head unit Widevine support may limit playback to SD/720p.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/netflix.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/netflix-8.140.0/netflix.apk",
-      "size_mb": 95
     },
     {
       "id": "youtube-revanced",
