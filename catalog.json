@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated": "2026-05-14",
+  "version": 6,
+  "updated": "2026-06-29",
   "categories": [
     {"id": "browser", "name": "Browser"},
     {"id": "media", "name": "Media"},
@@ -72,7 +72,7 @@
       "category": "tools",
       "description": "Open-source app store. Zero ads, no tracking, no Google account. Search and install community apps.",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/fdroid.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.21/F-Droid.apk",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.21/fdroid.apk",
       "size_mb": 12
     },
     {
