@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تثبيت Aptoide على سيارة BAW 212</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Tahoma, sans-serif;
+    background: #0E0E10;
+    color: #FFFFFF;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    line-height: 1.75;
+    font-size: 17px;
+  }
+  h1 {
+    color: #E5302C;
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+  .subtitle { color: #B8BBC2; margin-top: 0; font-size: 16px; }
+  h2 {
+    color: #4AA244;
+    font-size: 22px;
+    margin-top: 40px;
+    border-bottom: 1px solid #2E2E34;
+    padding-bottom: 10px;
+  }
+  .step {
+    background: #1A1A1D;
+    border: 1px solid #2E2E34;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 20px 0;
+  }
+  .step-num {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #E5302C;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 12px;
+    vertical-align: middle;
+    font-size: 18px;
+  }
+  .step-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .step img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: 1px solid #2E2E34;
+  }
+  .chinese {
+    background: #26262B;
+    padding: 3px 10px;
+    border-radius: 6px;
+    color: #FFD24A;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    white-space: nowrap;
+  }
+  .download {
+    display: inline-block;
+    background: #4AA244;
+    color: #fff;
+    padding: 16px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(74, 162, 68, 0.3);
+  }
+  .download:hover { background: #3A8235; }
+  .note {
+    background: #1A1A1D;
+    border-right: 4px solid #4AA244;
+    padding: 14px 18px;
+    margin: 18px 0;
+    border-radius: 8px;
+  }
+  .warn {
+    background: #1A1A1D;
+    border-right: 4px solid #E5302C;
+    padding: 14px 18px;
+    margin: 18px 0;
+    border-radius: 8px;
+  }
+  .red { color: #E5302C; font-weight: bold; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  th, td {
+    border: 1px solid #2E2E34;
+    padding: 10px 14px;
+    text-align: right;
+    vertical-align: top;
+  }
+  th {
+    background: #26262B;
+    color: #B8BBC2;
+  }
+  footer {
+    color: #5A5D63;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    padding-top: 20px;
+    border-top: 1px solid #2E2E34;
+  }
+</style>
+</head>
+<body>
+
+<h1>📲 تثبيت تطبيق Aptoide على شاشة BAW 212</h1>
+<p class="subtitle">دليل سريع — كل خطوة بصورة من شاشة السيارة</p>
+
+<h2>0️⃣ قبل البدء — حمّل التطبيق</h2>
+<div class="step">
+  <p>اضغط الزر التالي لتحميل ملف Aptoide.apk من GitHub مباشرة (حجمه 20 ميجابايت تقريباً):</p>
+  <a class="download"
+     href="https://github.com/ODuwaik/carapplab-catalog/releases/download/aptoide-9.22.5.3/aptoide.apk"
+     download="Aptoide.apk">⬇️ تحميل Aptoide.apk</a>
+  <p style="color: #B8BBC2; font-size: 15px;">
+    بعد التحميل، انسخه إلى فلاش USB (يفضّل أن يكون بصيغة <strong>FAT32</strong>).
+    اختياري: غيّر اسم الملف إلى <strong>Aptoide.apk</strong> ليكون واضحاً.
+  </p>
+</div>
+
+
+<h2>الخطوات على السيارة</h2>
+
+<div class="step">
+  <span class="step-num">1</span><span class="step-title">ركّب فلاش USB في السيارة</span>
+  <p>استخدم أي منفذ USB من منافذ السيارة. ستظهر السيارة فلاش الـ USB كجهاز تخزين خارجي.</p>
+</div>
+
+<div class="step">
+  <span class="step-num">2</span><span class="step-title">ادخل إلى قائمة المهندسين</span>
+  <p>
+    افتح <strong>الإعدادات (Settings)</strong> ← <strong>حول الجهاز (About)</strong>،
+    ثم <strong>اضغط على رقم الإصدار 7 مرات متتالية بسرعة</strong>.
+    ستظهر هذه الشاشة:
+  </p>
+  <img src="img/step2-keypad.jpg" alt="شاشة كلمة سر المصنع">
+  <p>
+    اكتب الرمز الذي أرسلته لك (<span class="chinese">工厂密码</span> = "كلمة سر المصنع"),
+    ثم اضغط زر <span class="chinese">确定</span> (تأكيد).
+  </p>
+  <p style="color:#B8BBC2; font-size:15px;">
+    💡 الأزرار من اليمين إلى اليسار: <span class="chinese">取消</span> (إلغاء)،
+    <span class="chinese">确定</span> (تأكيد)، <span class="chinese">删除</span> (حذف رقم)،
+    <span class="chinese">清空</span> (مسح الكل).
+  </p>
+</div>
+
+<div class="step">
+  <span class="step-num">3</span><span class="step-title">اختر "تثبيت تطبيق" من القائمة الجانبية</span>
+  <p>
+    بعد إدخال الرمز، ستظهر قائمة على يسار الشاشة بـ 8 خيارات.
+    انزل إلى <strong class="red">آخر خيار في الأسفل</strong> — مكتوب
+    <span class="chinese">App安装</span> (يعني "تثبيت تطبيق"). اضغط عليه.
+  </p>
+  <img src="img/step3-sidebar.jpg" alt="القائمة الجانبية مع تحديد App安装">
+  <p style="color:#B8BBC2; font-size:15px;">
+    ⬅️ السهم الأحمر يشير إلى الخيار الصحيح.
+  </p>
+</div>
+
+<div class="step">
+  <span class="step-num">4</span><span class="step-title">اختر ملف Aptoide.apk من الـ USB</span>
+  <p>
+    ستظهر قائمة الملفات على الـ USB. اضغط على <strong>Aptoide.apk</strong>.
+  </p>
+</div>
+
+<div class="step">
+  <span class="step-num">5</span><span class="step-title">أكّد التثبيت</span>
+  <p>
+    سيظهر مربع يسأل <strong>"هل تريد تثبيت هذا التطبيق؟ / Install this application?"</strong>.
+    اضغط زر <strong>Install / 安装</strong>.
+    انتظر حوالي 10 ثوانٍ حتى تكتمل عملية التثبيت ✅
+  </p>
+</div>
+
+<div class="note">
+  <strong>💡 ملاحظة:</strong> إذا ظهرت رسالة عن "مصادر غير معروفة / Unknown sources" قبل التثبيت،
+  اضغط <strong>السماح / Allow</strong> — هذا إذن طبيعي يُطلب لمرة واحدة فقط.
+</div>
+
+<p>افتح Aptoide من قائمة التطبيقات في الشاشة الرئيسية للسيارة. في أول مرة سيطلب الموافقة على
+شروط الاستخدام — اضغط <strong>Accept</strong> وستكون جاهزاً لتصفّح وتحميل التطبيقات.</p>
+
+
+<h2>🛠️ حل المشاكل</h2>
+<table>
+  <thead>
+    <tr>
+      <th>المشكلة</th>
+      <th>الحل</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"USB device not found" — السيارة لا تتعرّف على الفلاش</td>
+      <td>أعد توصيل الفلاش، أو جرّب منفذ USB ثاني. تأكد أن الفلاش مهيّأ (formatted) بصيغة
+        <strong>FAT32</strong> — وليس exFAT أو NTFS.</td>
+    </tr>
+    <tr>
+      <td>قائمة المهندسين لا تظهر بعد 7 ضغطات</td>
+      <td>تأكد أنك في صفحة <strong>About / حول الجهاز</strong> بالضبط، وليس قائمة الإعدادات الرئيسية.
+        ينبغي أن تضغط على رقم الإصدار 7 مرات متتالية بسرعة.</td>
+    </tr>
+    <tr>
+      <td>رسالة "Install blocked" أو "المصادر غير معروفة"</td>
+      <td>اضغط <strong>Settings / Allow</strong> في المربع — النظام يحتاج إذن لمرة واحدة فقط.</td>
+    </tr>
+    <tr>
+      <td>Aptoide تثبّت ولكن لا يفتح</td>
+      <td>أعد تشغيل نظام أندرويد:
+        قائمة المهندسين ← <span class="chinese">后台入口</span> (Backend Entry)
+        ← <span class="chinese">重启Android系统</span> (Restart Android).</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="warn">
+  <strong>⚠️ تنبيه مهم:</strong> تطبيقات مثل <strong>Netflix</strong> و <strong>Shahid</strong>
+  و <strong>stc tv</strong> ستُثبّت بشكل طبيعي على السيارة، لكنها
+  <strong>لن تشغّل الفيديو</strong> بسبب قيود حماية المحتوى (DRM / Widevine L1) التي لا يدعمها
+  معالج هذه السيارة.
+  <br><br>
+  للمحتوى المحمي استخدم <strong>متصفّح Cromite</strong> ومشاهدته من الموقع مباشرة،
+  أو جهاز <strong>CarPlay / Android Auto AI Box</strong> خارجي (مثل Carlinkit Tbox Plus
+  أو Ottocast Picasou 2 Pro) — هذه الأجهزة معتمدة من Google ولها دعم DRM كامل.
+</div>
+
+<footer>
+  المدة المتوقعة: أقل من 3 دقائق · إعداد لمرة واحدة فقط<br>
+  دليل من CarAppLab · BAW 212 T01
+</footer>
+
+</body>
+</html>
