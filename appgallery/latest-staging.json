@@ -1,8 +1,8 @@
 {
-  "version_code": 2,
-  "version_name": "1.1.0",
-  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.1.0/appgallery-1.1.0.apk",
+  "version_code": 3,
+  "version_name": "1.2.0",
+  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.2.0/appgallery-1.2.0.apk",
   "required": false,
-  "notes_en": "STAGING · Two top tabs, 4/row cards, Arabic support, Restart/Force Stop.",
-  "notes_ar": "نسخة تجريبية · تبويبان، أربعة تطبيقات في كل صف، دعم عربي، إعادة تشغيل/إيقاف قسري."
+  "notes_en": "• Improved icon rendering on the App Gallery cards.\n• Faster tab switching between Installed and App Gallery.\n• Bug fix: language toggle now persists correctly after a full restart.\n• Update channel infrastructure ready for future OTA releases.",
+  "notes_ar": "• تحسين جودة عرض الأيقونات في بطاقات معرض التطبيقات.\n• تسريع التبديل بين تبويبَي المثبتة ومعرض التطبيقات.\n• إصلاح: أصبح تغيير اللغة يُحفظ بعد إعادة تشغيل التطبيق.\n• تجهيز البنية التحتية للتحديثات المستقبلية عن بُعد."
 }
