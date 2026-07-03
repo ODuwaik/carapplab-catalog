@@ -1,6 +1,6 @@
 {
-  "version_code": 5,
-  "version_name": "1.4.0",
+  "version_code": 6,
+  "version_name": "1.5.0",
   "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.4.0/appgallery-1.4.0.apk",
   "required": false,
   "notes_en": "• Brand new app icon across every launcher density.\n• Redesigned update dialog: wider layout, cleaner version comparison, softer typography.\n• Release notes now show English and Arabic together in one view.\n• Header now shows the AppGallery icon next to the title.\n• Version pills highlight the delta at a glance.",
