@@ -1,8 +1,8 @@
 {
-  "version_code": 7,
-  "version_name": "1.6.0",
-  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.6.0/appgallery-1.6.0.apk",
+  "version_code": 8,
+  "version_name": "1.7.0",
+  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.9.0/appgallery-1.9.0.apk",
   "required": false,
-  "notes_en": "• Fix: update modal no longer re-appears after an update attempt if the install did not raise the version.\n• Update tracker now resets automatically when a genuinely newer manifest arrives.\n• Persistent update badge stays clickable so you can retry a skipped install anytime.",
-  "notes_ar": "• إصلاح: لن تظهر نافذة التحديث مرة أخرى إذا لم يرتفع رقم الإصدار فعلياً بعد المحاولة.\n• متتبّع التحديثات يعيد ضبط نفسه تلقائياً عند وصول تحديث جديد أعلى فعلياً.\n• شارة التحديث تبقى قابلة للضغط لإعادة محاولة تحديث سبق تخطّيه في أي وقت."
+  "notes_en": "• First push in the modal-invariant test.\n• If you see this modal, the manifest fetch works.\n• If you tap Update, the install jumps you straight to 1.9.0.\n• If you tap Later, next open should show the latest advertised version (not 1.7.0 again).",
+  "notes_ar": "• أول تحديث في اختبار السلوك الصحيح للنافذة.\n• ظهور هذه النافذة يعني أن جلب البيان يعمل.\n• الضغط على تحديث يقفز مباشرة إلى الإصدار 1.9.0.\n• الضغط على لاحقاً يعني أن الفتح التالي يجب أن يُظهر أحدث إصدار مُعلَن، وليس 1.7.0 مرة أخرى."
 }
