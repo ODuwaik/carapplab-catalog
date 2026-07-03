@@ -1,8 +1,8 @@
 {
-  "version_code": 8,
-  "version_name": "1.7.0",
+  "version_code": 9,
+  "version_name": "1.8.0",
   "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.9.0/appgallery-1.9.0.apk",
   "required": false,
-  "notes_en": "• First push in the modal-invariant test.\n• If you see this modal, the manifest fetch works.\n• If you tap Update, the install jumps you straight to 1.9.0.\n• If you tap Later, next open should show the latest advertised version (not 1.7.0 again).",
-  "notes_ar": "• أول تحديث في اختبار السلوك الصحيح للنافذة.\n• ظهور هذه النافذة يعني أن جلب البيان يعمل.\n• الضغط على تحديث يقفز مباشرة إلى الإصدار 1.9.0.\n• الضغط على لاحقاً يعني أن الفتح التالي يجب أن يُظهر أحدث إصدار مُعلَن، وليس 1.7.0 مرة أخرى."
+  "notes_en": "• Second push. Version bumped to 1.8.0.\n• If your installed app is still 1.6.0, you should see the modal go straight from 1.6.0 → 1.8.0.\n• You should NOT see 1.7.0 → 1.8.0 — the app must always compare installed to LATEST manifest, never to the previous manifest.",
+  "notes_ar": "• التحديث الثاني. رقم الإصدار الآن 1.8.0.\n• إذا كان الإصدار المثبت لديك 1.6.0، يجب أن تُظهر النافذة الانتقال مباشرة من 1.6.0 إلى 1.8.0.\n• يجب ألا تُظهر 1.7.0 إلى 1.8.0 — التطبيق يقارن الإصدار المثبت بأحدث بيان، وليس بالبيان السابق."
 }
