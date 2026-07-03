@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "updated": "2026-07-03",
   "categories": [
     {
@@ -155,28 +155,6 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/uptodown.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/uptodown-7.32/uptodown.apk",
       "size_mb": 15
-    },
-    {
-      "id": "aptoide",
-      "name": "Aptoide",
-      "package": "cm.aptoide.pt",
-      "version": "9.22.5.3",
-      "category": "tools",
-      "description": "Third-party app store. Wider selection than F-Droid but user-uploaded (not curated for quality).",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/aptoide.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/aptoide-9.22.5.3/aptoide.apk",
-      "size_mb": 20
-    },
-    {
-      "id": "offroad-dash",
-      "name": "Off-Road Dashboard",
-      "package": "com.carapplab.offroad_dash",
-      "version": "1.0.0",
-      "category": "offroad",
-      "description": "Live off-road instrument cluster: compass, altitude, speed, 4WD, tire pressure.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/offroad-dash.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/offroad-dash-1.0.0/offroad-dash.apk",
-      "size_mb": 44
     }
   ]
 }
