@@ -1,14 +1,35 @@
 {
-  "version": 10,
-  "updated": "2026-06-29",
+  "version": 11,
+  "updated": "2026-07-03",
   "categories": [
-    {"id": "browser", "name": "Browser"},
-    {"id": "media", "name": "Media"},
-    {"id": "music", "name": "Music"},
-    {"id": "navigation", "name": "Navigation"},
-    {"id": "iptv", "name": "IPTV"},
-    {"id": "tools", "name": "Tools"},
-    {"id": "offroad", "name": "Off-Road"}
+    {
+      "id": "browser",
+      "name": "Browser"
+    },
+    {
+      "id": "media",
+      "name": "Media"
+    },
+    {
+      "id": "music",
+      "name": "Music"
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation"
+    },
+    {
+      "id": "iptv",
+      "name": "IPTV"
+    },
+    {
+      "id": "tools",
+      "name": "Tools"
+    },
+    {
+      "id": "offroad",
+      "name": "Off-Road"
+    }
   ],
   "apps": [
     {
@@ -43,7 +64,9 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/youtube-revanced.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/youtube-revanced-20.40.45/youtube-revanced.apk",
       "size_mb": 173,
-      "requires": ["app.revanced.android.gms"]
+      "requires": [
+        "app.revanced.android.gms"
+      ]
     },
     {
       "id": "innertune",
@@ -68,17 +91,6 @@
       "size_mb": 10
     },
     {
-      "id": "shahid",
-      "name": "Shahid",
-      "package": "net.mbc.shahid",
-      "version": "8.2.0",
-      "category": "media",
-      "description": "MBC Shahid — Arabic streaming for series, movies, and live channels. Note: content playback may require a Google-certified device.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/shahid.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/shahid-8.2.0/shahid.apk",
-      "size_mb": 29
-    },
-    {
       "id": "iptv-smarters-pro",
       "name": "IPTV Smarters Pro",
       "package": "com.nst.iptvsmarterstvbox",
@@ -88,17 +100,6 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/iptv-smarters-pro.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/iptv-smarters-pro-5.0/iptv-smarters-pro.apk",
       "size_mb": 77
-    },
-    {
-      "id": "stc-tv",
-      "name": "stc tv",
-      "package": "com.intigral.jawwytv",
-      "version": "9.7.1",
-      "category": "media",
-      "description": "stc tv (Jawwy TV) — Saudi telecom streaming for series, live channels, sports. Note: content playback may require a certified device.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/stc-tv.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/stc-tv-9.7.1/stc-tv.apk",
-      "size_mb": 36
     },
     {
       "id": "smarters-player-pro",
