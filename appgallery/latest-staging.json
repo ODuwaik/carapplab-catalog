@@ -1,8 +1,8 @@
 {
-  "version_code": 10,
-  "version_name": "1.9.0",
+  "version_code": 11,
+  "version_name": "1.10.0",
   "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.9.0/appgallery-1.9.0.apk",
   "required": false,
-  "notes_en": "• Third and final push. Version is now 1.9.0.\n• Regardless of when you open the app, the modal should show your installed version → 1.9.0.\n• If installed = 1.6.0, expect 1.6.0 → 1.9.0.\n• If you already installed 1.7.0 or 1.8.0 during earlier pushes, expect that version → 1.9.0.\n• Tapping Update installs the real 1.9.0 APK — no loop after that.",
-  "notes_ar": "• التحديث الثالث والأخير. رقم الإصدار الآن 1.9.0.\n• بغض النظر عن وقت فتح التطبيق، يجب أن تُظهر النافذة الإصدار المثبت لديك ← 1.9.0.\n• إذا كان المثبت 1.6.0، ستظهر 1.6.0 ← 1.9.0.\n• إذا كنت قد ثبّتّ 1.7.0 أو 1.8.0 خلال التحديثات السابقة، ستظهر ذلك الإصدار ← 1.9.0.\n• الضغط على تحديث يُثبِّت 1.9.0 الحقيقي ولا حلقة بعده."
+  "notes_en": "• Cards now have a fixed height — the INSTALL button sits at the same y-position across every card in a row, whether the description is one line or two.\n• Update modal in Arabic: the arrow between versions now flips (←) so it reads current → new in RTL order.\n• Admin panel: editing an app's ID slug no longer collapses the expanded panel.",
+  "notes_ar": "• البطاقات الآن بارتفاع ثابت — زر التثبيت في نفس الموضع الرأسي عبر كل بطاقة في الصف، سواء كان الوصف سطراً واحداً أو سطرين.\n• نافذة التحديث بالعربية: السهم بين الإصدارات ينعكس الآن (←) ليقرأ الحالي ← الجديد باتجاه اليمين لليسار.\n• لوحة التحكم: تعديل معرّف التطبيق لم يعد يغلق اللوحة الموسّعة."
 }
