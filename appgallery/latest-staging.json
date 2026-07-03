@@ -1,8 +1,8 @@
 {
   "version_code": 7,
   "version_name": "1.6.0",
-  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.5.0/appgallery-1.5.0.apk",
+  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.6.0/appgallery-1.6.0.apk",
   "required": false,
-  "notes_en": "• Full brand refresh: charcoal-black palette with a single green accent.\n• Chunky segmented tabs instead of the thin Material bar.\n• Primary actions now white filled with black text, secondary actions in ghost gray.\n• Persistent update badge in the header so a skipped update stays a tap away.\n• Cards, buttons, and dividers redrawn from scratch on a new spacing scale.",
-  "notes_ar": "• هوية جديدة كاملة: خلفية سوداء رمادية مع لون واحد أخضر مميّز.\n• تبويبات سميكة مقسّمة بدلاً من الشريط الرفيع السابق.\n• الأزرار الأساسية أصبحت بيضاء مع نص أسود، والثانوية بلون رمادي هادئ.\n• شارة التحديث دائمة في الأعلى، لن تفقد التحديث المؤجّل.\n• إعادة رسم البطاقات والأزرار والفواصل بمقاييس مسافات جديدة."
+  "notes_en": "• Fix: update modal no longer re-appears after an update attempt if the install did not raise the version.\n• Update tracker now resets automatically when a genuinely newer manifest arrives.\n• Persistent update badge stays clickable so you can retry a skipped install anytime.",
+  "notes_ar": "• إصلاح: لن تظهر نافذة التحديث مرة أخرى إذا لم يرتفع رقم الإصدار فعلياً بعد المحاولة.\n• متتبّع التحديثات يعيد ضبط نفسه تلقائياً عند وصول تحديث جديد أعلى فعلياً.\n• شارة التحديث تبقى قابلة للضغط لإعادة محاولة تحديث سبق تخطّيه في أي وقت."
 }
