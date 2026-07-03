@@ -1,8 +1,8 @@
 {
-  "version_code": 4,
-  "version_name": "1.3.0",
-  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.2.0/appgallery-1.2.0.apk",
+  "version_code": 5,
+  "version_name": "1.4.0",
+  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.4.0/appgallery-1.4.0.apk",
   "required": false,
-  "notes_en": "• Brand new app icon across all launcher densities.\n• Redesigned update dialog with a cleaner version comparison.\n• Release notes now show both English and Arabic side by side.\n• Small tweaks to spacing and typography for readability.",
-  "notes_ar": "• أيقونة جديدة للتطبيق بجميع دقات الشاشة.\n• إعادة تصميم نافذة التحديث بمقارنة إصدارات أوضح.\n• عرض ملاحظات الإصدار بالإنجليزية والعربية معاً.\n• تحسينات دقيقة على المسافات والخطوط لقراءة أفضل."
+  "notes_en": "• Brand new app icon across every launcher density.\n• Redesigned update dialog: wider layout, cleaner version comparison, softer typography.\n• Release notes now show English and Arabic together in one view.\n• Header now shows the AppGallery icon next to the title.\n• Version pills highlight the delta at a glance.",
+  "notes_ar": "• أيقونة جديدة للتطبيق بجميع دقات الشاشة.\n• إعادة تصميم نافذة التحديث: تخطيط أعرض، مقارنة إصدارات أوضح، وخطوط أخف.\n• عرض ملاحظات الإصدار بالإنجليزية والعربية معاً في نفس النافذة.\n• أيقونة التطبيق تظهر بجانب عنوان النافذة.\n• شارات الإصدارات تُبرز الفرق بلمحة واحدة."
 }
