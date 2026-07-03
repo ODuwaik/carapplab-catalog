@@ -1,0 +1,8 @@
+{
+  "version_code": 2,
+  "version_name": "1.1.0",
+  "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.1.0/appgallery-1.1.0.apk",
+  "required": false,
+  "notes_en": "• Two top tabs: Installed and App Gallery.\n• 4 apps per row, smaller icons.\n• New Restart and Force Stop buttons.\n• Arabic language support (tap AR/EN top-right).\n• Removed stc tv and Shahid (DRM-blocked on this hardware).",
+  "notes_ar": "• تبويبان في الأعلى: المثبتة ومعرض التطبيقات.\n• عرض أربعة تطبيقات في كل صف مع أيقونات أصغر.\n• أزرار جديدة لإعادة التشغيل والإيقاف القسري.\n• دعم اللغة العربية (اضغط AR/EN في الأعلى).\n• إزالة stc tv و Shahid لتعذّر تشغيلهما على هذا الجهاز."
+}
