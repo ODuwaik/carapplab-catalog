@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "updated": "2026-07-03",
   "categories": [
     {
@@ -38,7 +38,7 @@
       "package": "org.cromite.cromite",
       "version": "147.0.7727.56",
       "category": "browser",
-      "description": "Chromium-based browser with built-in ad-blocking and zero tracking. Plays YouTube web, Netflix web, and any modern site.",
+      "description": "The best browser ever",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/cromite.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/cromite-147.0.7727.56/cromite.apk",
       "size_mb": 175
