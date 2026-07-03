@@ -1,8 +1,8 @@
 {
-  "version_code": 9,
-  "version_name": "1.8.0",
+  "version_code": 10,
+  "version_name": "1.9.0",
   "apk_url": "https://github.com/ODuwaik/carapplab-catalog/releases/download/appgallery-1.9.0/appgallery-1.9.0.apk",
   "required": false,
-  "notes_en": "• Second push. Version bumped to 1.8.0.\n• If your installed app is still 1.6.0, you should see the modal go straight from 1.6.0 → 1.8.0.\n• You should NOT see 1.7.0 → 1.8.0 — the app must always compare installed to LATEST manifest, never to the previous manifest.",
-  "notes_ar": "• التحديث الثاني. رقم الإصدار الآن 1.8.0.\n• إذا كان الإصدار المثبت لديك 1.6.0، يجب أن تُظهر النافذة الانتقال مباشرة من 1.6.0 إلى 1.8.0.\n• يجب ألا تُظهر 1.7.0 إلى 1.8.0 — التطبيق يقارن الإصدار المثبت بأحدث بيان، وليس بالبيان السابق."
+  "notes_en": "• Third and final push. Version is now 1.9.0.\n• Regardless of when you open the app, the modal should show your installed version → 1.9.0.\n• If installed = 1.6.0, expect 1.6.0 → 1.9.0.\n• If you already installed 1.7.0 or 1.8.0 during earlier pushes, expect that version → 1.9.0.\n• Tapping Update installs the real 1.9.0 APK — no loop after that.",
+  "notes_ar": "• التحديث الثالث والأخير. رقم الإصدار الآن 1.9.0.\n• بغض النظر عن وقت فتح التطبيق، يجب أن تُظهر النافذة الإصدار المثبت لديك ← 1.9.0.\n• إذا كان المثبت 1.6.0، ستظهر 1.6.0 ← 1.9.0.\n• إذا كنت قد ثبّتّ 1.7.0 أو 1.8.0 خلال التحديثات السابقة، ستظهر ذلك الإصدار ← 1.9.0.\n• الضغط على تحديث يُثبِّت 1.9.0 الحقيقي ولا حلقة بعده."
 }
