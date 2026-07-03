@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "updated": "2026-07-03",
   "categories": [
     {
@@ -124,15 +124,17 @@
       "size_mb": 101
     },
     {
-      "id": "material-files",
-      "name": "Material Files",
+      "id": "Files Manager",
+      "name": "Files Manager",
       "package": "me.zhanghai.android.files",
       "version": "1.7.4",
       "category": "tools",
-      "description": "Clean Material You file manager. No ads, no tracking. SMB/FTP/SFTP/WebDAV/cloud support. Open source.",
+      "description": "File manager, no ads",
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/material-files.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/material-files-1.7.4/material-files.apk",
-      "size_mb": 12
+      "size_mb": 12,
+      "name_ar": "مدير الملفات",
+      "description_ar": "مدير ملفات"
     }
   ]
 }
