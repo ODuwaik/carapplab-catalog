@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "updated": "2026-07-03",
   "categories": [
     {
@@ -133,28 +133,6 @@
       "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/material-files.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/material-files-1.7.4/material-files.apk",
       "size_mb": 12
-    },
-    {
-      "id": "fdroid",
-      "name": "F-Droid",
-      "package": "org.fdroid.fdroid",
-      "version": "1.23.2",
-      "category": "tools",
-      "description": "Open-source app store. Zero ads, no tracking, no Google account. Search and install community apps.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/fdroid.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/fdroid-1.23.2/fdroid.apk",
-      "size_mb": 13
-    },
-    {
-      "id": "uptodown",
-      "name": "Uptodown",
-      "package": "com.uptodown",
-      "version": "7.32",
-      "category": "tools",
-      "description": "Alternative app store. Direct APK downloads, no ads, version history. Useful when an app isn't on F-Droid.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/uptodown.png",
-      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/uptodown-7.32/uptodown.apk",
-      "size_mb": 15
     }
   ]
 }
