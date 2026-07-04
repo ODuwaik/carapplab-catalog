@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "updated": "2026-07-03",
+  "version": 17,
+  "updated": "2026-07-04",
   "categories": [
     {
       "id": "browser",
@@ -32,6 +32,19 @@
     }
   ],
   "apps": [
+    {
+      "id": "new-1783168867845",
+      "name": "Vivaldi",
+      "name_ar": "",
+      "package": "",
+      "version": "",
+      "category": "tools",
+      "description": "The only web browser powerful enough for you!\nWith all the features you need and unmatched levels of customization.",
+      "description_ar": "The only web browser powerful enough for you!\nWith all the features you need and unmatched levels of customization.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/new-1783168867845.jpeg",
+      "apk": "https://api.betadrop.app/api/guest/download/vyN8hD",
+      "size_mb": 0
+    },
     {
       "id": "cromite",
       "name": "Cromite",
