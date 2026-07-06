@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "updated": "2026-07-06",
   "categories": [
     {
@@ -35,13 +35,13 @@
     {
       "id": "smarters-player-carfix",
       "name": "Smarters Player — Car Edition",
-      "name_ar": "سمارترز بلاير — نسخة السيارة",
+      "name_ar": "IPTV — نسخة السيارة",
       "package": "com.nst.smartersplayerpro",
       "version": "5.1-carfix.1",
       "category": "iptv",
       "description": "Fixed for BAW 212 landscape screen: License Agreement page now shows ACCEPT / CANCEL at the top so it can actually be dismissed. Everything else identical to stock 5.1.",
       "description_ar": "نسخة معدّلة لشاشة BAW 212: زرّا القبول والإلغاء في أعلى شاشة اتفاقية الترخيص، حتى تمرّ منها بدون تعليق. كل شيء آخر مطابق للنسخة الأصلية 5.1.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/smarters-player-pro.png",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/smarters-player-carfix.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/smarters-player-pro-carfix-5.1/iptv-smarters-5.1-carfix.apk",
       "size_mb": 30
     },
