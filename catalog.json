@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "updated": "2026-07-06",
   "categories": [
     {
@@ -34,7 +34,7 @@
   "apps": [
     {
       "id": "smarters-player-carfix",
-      "name": "Smarters Player — Car Edition",
+      "name": "IPTV Smarters — Car Edition",
       "name_ar": "IPTV — نسخة السيارة",
       "package": "com.nst.smartersplayerpro",
       "version": "5.1-carfix.1",
