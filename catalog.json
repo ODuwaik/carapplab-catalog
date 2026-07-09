@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "updated": "2026-07-06",
+  "version": 19,
+  "updated": "2026-07-09",
   "categories": [
     {
       "id": "browser",
@@ -33,15 +33,28 @@
   ],
   "apps": [
     {
+      "id": "screen-settings",
+      "name": "Screen Settings",
+      "name_ar": "اعدادات الشاشة",
+      "package": "screen.settings",
+      "version": "1.0",
+      "category": "tools",
+      "description": "One-tap shortcut to native Android Settings. Opens the same screen you reach from the engineering menu, but from your home screen.",
+      "description_ar": "اختصار بضغطة واحدة لإعدادات أندرويد الأصلية. يفتح نفس الشاشة التي تصل إليها من قائمة المهندسين، لكن من الشاشة الرئيسية مباشرة.",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/screen-settings.png",
+      "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/screen-settings-1.0/screen-settings-1.0.apk",
+      "size_mb": 1
+    },
+    {
       "id": "smarters-player-carfix",
-      "name": "IPTV Smarters — Car Edition",
-      "name_ar": "IPTV — نسخة السيارة",
+      "name": "Smarters Player — Car Edition",
+      "name_ar": "سمارترز بلاير — نسخة السيارة",
       "package": "com.nst.smartersplayerpro",
       "version": "5.1-carfix.1",
       "category": "iptv",
       "description": "Fixed for BAW 212 landscape screen: License Agreement page now shows ACCEPT / CANCEL at the top so it can actually be dismissed. Everything else identical to stock 5.1.",
       "description_ar": "نسخة معدّلة لشاشة BAW 212: زرّا القبول والإلغاء في أعلى شاشة اتفاقية الترخيص، حتى تمرّ منها بدون تعليق. كل شيء آخر مطابق للنسخة الأصلية 5.1.",
-      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/smarters-player-carfix.png",
+      "icon": "https://raw.githubusercontent.com/ODuwaik/carapplab-catalog/main/icons/smarters-player-pro.png",
       "apk": "https://github.com/ODuwaik/carapplab-catalog/releases/download/smarters-player-pro-carfix-5.1/iptv-smarters-5.1-carfix.apk",
       "size_mb": 30
     },
